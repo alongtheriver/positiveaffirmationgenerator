@@ -1,0 +1,46 @@
+body {
+    animation: change 10s infinite;
+} 
+
+h1 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+    color: #D1D646;
+} 
+
+#affirmations {
+    text-align: center;
+    margin: 100px 100px 180px 200px;
+    font-size: xx-large;
+} 
+
+#btn {
+    background-color: blue;
+    color:white;
+    display: inline-block;
+    padding: 0.35em 1.5em;
+    margin: 0 0.5em 0.5em 0;
+    border-radius: 0.12em;
+}  
+
+
+
+
+
+#vertical-center {
+    margin: 0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@keyframes change {
+    0%{background-color: #355070}
+    25%{background-color:#6D597A}
+    50%{background-color: #B56576}
+    75%{background-color: #E56B6F}
+    100%{background-color: #EAAC8B;}
+}
